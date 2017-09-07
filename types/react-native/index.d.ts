@@ -3496,6 +3496,8 @@ interface ListRenderItemInfo<ItemT> {
 
     index: number
 
+    section: SectionListData<ItemT>
+
     separators: {
         highlight: () => void,
         unhighlight: () => void,
